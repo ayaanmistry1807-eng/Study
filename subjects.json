@@ -1,0 +1,549 @@
+{
+  "Physics": {
+    "Rotational Dynamics": [
+      "Torque",
+      "Angular acceleration",
+      "Moment of inertia",
+      "Parallel axis theorem",
+      "Perpendicular axis theorem",
+      "Angular momentum"
+    ],
+    "Mechanical Properties of Fluids": [
+      "Pressure",
+      "Pascal's law",
+      "Surface tension",
+      "Viscosity",
+      "Streamline flow",
+      "Turbulent flow"
+    ],
+    "Kinetic Theory of Gases & Radiation": [
+      "Assumptions of kinetic theory",
+      "Degrees of freedom",
+      "Specific heat capacity",
+      "Thermal radiation interaction"
+    ],
+    "Thermodynamics": [
+      "Zeroth law",
+      "First law",
+      "Second law",
+      "Thermodynamic processes",
+      "Heat engines",
+      "Refrigerators"
+    ],
+    "Oscillations": [
+      "Periodic motion",
+      "Simple harmonic motion",
+      "Simple pendulum",
+      "Damped oscillations"
+    ],
+    "Superposition of Waves": [
+      "Principle of superposition",
+      "Interference",
+      "Diffraction",
+      "Stationary waves",
+      "Musical instruments"
+    ],
+    "Wave Optics": [
+      "Reflection",
+      "Refraction",
+      "Interference",
+      "Diffraction",
+      "Polarization",
+      "Resolving power"
+    ],
+    "Electrostatics": [
+      "Coulomb's law",
+      "Gauss’s law",
+      "Electric potential",
+      "Electric energy",
+      "Capacitors",
+      "Dielectrics"
+    ],
+    "Current Electricity": [
+      "Ohm’s law",
+      "Resistance",
+      "Series circuits",
+      "Parallel circuits"
+    ],
+    "Magnetic Fields due to Electric Current": [
+      "Biot–Savart law",
+      "Ampere’s law",
+      "Magnetic field from current"
+    ],
+    "Magnetic Materials": [
+      "Diamagnetic materials",
+      "Paramagnetic materials",
+      "Ferromagnetic materials"
+    ],
+    "Electromagnetic Induction": [
+      "Faraday’s law",
+      "Self induction",
+      "Mutual induction",
+      "AC generation"
+    ],
+    "AC Circuits": [
+      "AC fundamentals",
+      "Impedance",
+      "LCR circuits",
+      "Phase relationships"
+    ],
+    "Dual Nature of Radiation & Matter": [
+      "Photoelectric effect",
+      "De Broglie waves",
+      "Davisson–Germer experiment"
+    ],
+    "Structure of Atoms & Nuclei": [
+      "Atomic models",
+      "Radioactivity",
+      "Nuclear reactions",
+      "Mass–energy relation",
+      "Nuclear fission",
+      "Nuclear fusion"
+    ],
+    "Semiconductor Devices": [
+      "Zener diode",
+      "Transistors",
+      "Semiconductor basics"
+    ]
+  },
+  "Chemistry": {
+    "Solid State": [
+      "Classification of solids",
+      "Unit cells (2D & 3D)",
+      "Density calculations",
+      "Point defects",
+      "Band theory of metals"
+    ],
+    "Solutions": [
+      "Concentration terms",
+      "Colligative properties",
+      "Van’t Hoff factor"
+    ],
+    "Ionic Equilibria": [
+      "Strong & weak acids/bases",
+      "Ostwald’s dilution law",
+      "Henderson–Hasselbalch equation",
+      "Buffer solutions"
+    ],
+    "Chemical Thermodynamics": [
+      "System & surroundings",
+      "Work & heat",
+      "Internal energy",
+      "First law",
+      "Second law"
+    ],
+    "Elements of Groups 16, 17 & 18": [
+      "Properties",
+      "Preparation",
+      "Compounds"
+    ],
+    "Transition & Inner Transition Elements": [
+      "Characteristics",
+      "Oxidation states",
+      "Preparation",
+      "Uses"
+    ],
+    "Coordination Compounds": [
+      "Nomenclature",
+      "Bonding",
+      "Isomerism",
+      "Applications"
+    ],
+    "Electrochemistry": [
+      "Electrochemical cells",
+      "Cell potential",
+      "Electrolysis"
+    ],
+    "Chemical Kinetics": [
+      "Rate of reaction",
+      "Rate laws",
+      "Factors affecting rate",
+      "Activation energy"
+    ],
+    "Halogen Derivatives": [
+      "Haloalkanes",
+      "Haloarenes",
+      "Preparation",
+      "Reactions"
+    ],
+    "Alcohols, Phenols & Ethers": [
+      "Nomenclature",
+      "Preparation",
+      "Chemical properties"
+    ],
+    "Aldehydes, Ketones & Carboxylic Acids": [
+      "Preparation",
+      "Reactions",
+      "Properties"
+    ],
+    "Amines": [
+      "Structure",
+      "Preparation",
+      "Properties"
+    ],
+    "Biomolecules": [
+      "Carbohydrates",
+      "Proteins",
+      "Vitamins",
+      "Nucleic acids"
+    ],
+    "Polymer Chemistry": [
+      "Classification",
+      "Types of polymerization",
+      "Commercial polymers"
+    ],
+    "Green Chemistry & Nanochemistry": [
+      "Principles",
+      "Applications"
+    ]
+  },
+  "Maths": {
+    "Mathematical Logic": [
+      "Exercise 1.1",
+      "Exercise 1.2",
+      "Exercise 1.3",
+      "Exercise 1.4",
+      "Exercise 1.5",
+      "Miscellaneous Exercise 1"
+    ],
+    "Matrices": [
+      "Exercise 2.1",
+      "Exercise 2.2",
+      "Exercise 2.3",
+      "Miscellaneous Exercise 2"
+    ],
+    "Trigonometric Functions": [
+      "Exercise 3.1",
+      "Exercise 3.2",
+      "Exercise 3.3",
+      "Miscellaneous Exercise 3(A)",
+      "Miscellaneous Exercise 3(B)"
+    ],
+    "Pair of Straight Lines": [
+      "Exercise 4.1",
+      "Exercise 4.2",
+      "Exercise 4.3",
+      "Miscellaneous Exercise 4"
+    ],
+    "Vectors": [
+      "Exercise 5.1",
+      "Exercise 5.2",
+      "Exercise 5.3",
+      "Exercise 5.4",
+      "Exercise 5.5",
+      "Miscellaneous Exercise 5"
+    ],
+    "Line and Plane": [
+      "Exercise 6.1",
+      "Exercise 6.2",
+      "Exercise 6.3",
+      "Exercise 6.4",
+      "Miscellaneous Exercise 6(A)",
+      "Miscellaneous Exercise 6(B)"
+    ],
+    "Linear Programming": [
+      "Exercise 7.1",
+      "Exercise 7.2",
+      "Exercise 7.3",
+      "Exercise 7.4",
+      "Miscellaneous Exercise 7"
+    ],
+    "Differentiation": [
+      "Exercise 1.1",
+      "Exercise 1.2",
+      "Exercise 1.3",
+      "Exercise 1.4",
+      "Exercise 1.5",
+      "Miscellaneous Exercise 1"
+    ],
+    "Applications of Derivatives": [
+      "Exercise 2.1",
+      "Exercise 2.2",
+      "Exercise 2.3",
+      "Exercise 2.4",
+      "Miscellaneous Exercise 2"
+    ],
+    "Indefinite Integration": [
+      "Exercise 3.1",
+      "Exercise 3.2(A)",
+      "Exercise 3.2(B)",
+      "Exercise 3.2(C)",
+      "Exercise 3.3",
+      "Exercise 3.4",
+      "Miscellaneous Exercise 3"
+    ],
+    "Definite Integration": [
+      "Exercise 4.1",
+      "Exercise 4.2",
+      "Miscellaneous Exercise 4"
+    ],
+    "Applications of Definite Integration": [
+      "Exercise 5.1",
+      "Miscellaneous Exercise 5"
+    ],
+    "Differential Equations": [
+      "Exercise 6.1",
+      "Exercise 6.2",
+      "Exercise 6.3",
+      "Exercise 6.4",
+      "Exercise 6.5",
+      "Exercise 6.6",
+      "Miscellaneous Exercise 6"
+    ],
+    "Probability Distributions": [
+      "Exercise 7.1",
+      "Exercise 7.2",
+      "Miscellaneous Exercise 7"
+    ],
+    "Binomial Distribution": [
+      "Exercise 8.1",
+      "Miscellaneous Exercise 8"
+    ]
+  },
+  "Biology": {
+    "Reproduction in Lower and Higher Plants": [
+      "Asexual reproduction (spore formation, fragmentation, budding)",
+      "Sexual reproduction in algae (isogamy, anisogamy, oogamy)",
+      "Structure of flower (androecium, gynoecium)",
+      "Microsporogenesis",
+      "Male gametophyte (pollen grain)",
+      "Megasporogenesis",
+      "Female gametophyte (embryo sac)",
+      "Pollination types",
+      "Pollination agents",
+      "Outbreeding devices",
+      "Double fertilisation",
+      "Triple fusion",
+      "Endosperm development",
+      "Embryo development",
+      "Seed",
+      "Fruit",
+      "Apomixis",
+      "Polyembryony"
+    ],
+
+    "Reproduction in Higher Animals": [
+      "Asexual reproduction in animals",
+      "Male reproductive system",
+      "Female reproductive system",
+      "Gametogenesis (spermatogenesis & oogenesis)",
+      "Menstrual cycle",
+      "Hormonal control",
+      "Fertilisation",
+      "Implantation",
+      "Placenta",
+      "Embryonic development",
+      "Germ layers",
+      "Parturition",
+      "Reproductive health",
+      "Contraception",
+      "ART (IVF, ICSI, etc.)",
+      "STDs"
+    ],
+
+    "Inheritance and Variation": [
+      "Mendel’s laws",
+      "Monohybrid cross",
+      "Dihybrid cross",
+      "Incomplete dominance",
+      "Codominance",
+      "Multiple alleles",
+      "Linkage",
+      "Crossing over",
+      "Sex determination (human, bird, honeybee)",
+      "Sex-linked inheritance",
+      "Haemophilia",
+      "Colour blindness",
+      "Chromosomal disorders",
+      "Down’s syndrome",
+      "Thalassemia"
+    ],
+
+    "Molecular Basis of Inheritance": [
+      "DNA as genetic material",
+      "Griffith experiment",
+      "Hershey-Chase experiment",
+      "Watson & Crick structure",
+      "Replication",
+      "Transcription",
+      "Genetic code",
+      "Translation",
+      "Gene expression",
+      "Lac operon",
+      "DNA fingerprinting",
+      "Human Genome Project"
+    ],
+
+    "Origin and Evolution of Life": [
+      "Chemical evolution (Oparin-Haldane)",
+      "Evidence of evolution",
+      "Homology",
+      "Analogy",
+      "Fossils",
+      "Lamarckism",
+      "Darwin’s natural selection",
+      "Hardy-Weinberg principle",
+      "Factors affecting HW equilibrium",
+      "Genetic drift",
+      "Gene flow",
+      "Mutation",
+      "Adaptive radiation",
+      "Human evolution"
+    ],
+    "Plant Water Relations": [
+      "Water potential & components",
+      "Diffusion",
+      "Osmosis",
+      "Imbibition",
+      "Plasmolysis",
+      "Water absorption",
+      "Ascent of sap (Cohesion–Tension theory)",
+      "Transpiration"
+    ],
+
+    "Plant Growth and Mineral Nutrition": [
+      "Phases of growth",
+      "Growth rate",
+      "Auxins",
+      "Gibberellins",
+      "Cytokinins",
+      "ABA",
+      "Ethylene",
+      "Photoperiodism",
+      "Vernalisation",
+      "Essential mineral elements",
+      "Macro & micro nutrients",
+      "Deficiency symptoms",
+      "Mechanisms of mineral absorption"
+    ],
+
+    "Respiration and Circulation": [
+      "Breathing mechanism",
+      "Inspiration & expiration",
+      "Exchange of gases",
+      "Transport of O₂ & CO₂",
+      "Blood composition",
+      "Blood groups",
+      "Coagulation",
+      "Structure of heart",
+      "Cardiac cycle",
+      "ECG",
+      "Heartbeat regulation",
+      "Blood vessels",
+      "Circulatory disorders"
+    ],
+
+    "Control and Coordination": [
+      "Nerve impulse",
+      "Human nervous system (CNS, PNS, ANS)",
+      "Brain structure",
+      "Brain functions",
+      "Reflex action",
+      "Reflex arc",
+      "Endocrine system",
+      "Pituitary gland",
+      "Thyroid",
+      "Adrenal gland",
+      "Hormones",
+      "Mechanism of hormone action"
+    ],
+
+    "Human Health and Diseases": [
+      "Innate immunity",
+      "Acquired immunity",
+      "Vaccination",
+      "Antibody structure",
+      "Bacterial diseases",
+      "Viral diseases",
+      "Fungal diseases",
+      "Parasites",
+      "Cancer types",
+      "Cancer treatment",
+      "AIDS",
+      "Prevention of AIDS",
+      "Drug abuse",
+      "Alcohol addiction"
+    ],
+
+    "Enhancement in Food Production": [
+      "Plant breeding",
+      "Crop improvement",
+      "Disease resistance",
+      "Pest resistance",
+      "Bt cotton",
+      "Tissue culture",
+      "Animal husbandry",
+      "Microbes in household",
+      "Microbes in industry",
+      "Antibiotic production"
+    ],
+    "Biotechnology": [
+      "Recombinant DNA technology",
+      "Steps of rDNA technology",
+      "Restriction enzymes",
+      "Vectors",
+      "PCR",
+      "Applications in agriculture",
+      "Applications in medicine",
+      "Human insulin production",
+      "Gene therapy",
+      "Biopiracy",
+      "Biopatents"
+    ],
+
+    "Organisms and Populations": [
+      "Organism & environment",
+      "Habitat",
+      "Niche",
+      "Biomes",
+      "Types of adaptations",
+      "Population attributes",
+      "Natality",
+      "Mortality",
+      "Immigration",
+      "Emigration",
+      "Population growth models",
+      "Exponential growth",
+      "Logistic growth",
+      "Population interactions",
+      "Mutualism",
+      "Competition",
+      "Predation",
+      "Parasitism",
+      "Commensalism"
+    ],
+
+    "Ecosystem and Energy Flow": [
+      "Ecosystem structure",
+      "Biotic components",
+      "Abiotic components",
+      "Productivity",
+      "Energy flow",
+      "Food chain",
+      "Food web",
+      "Ecological pyramids",
+      "Ecological succession",
+      "Nutrient cycles",
+      "Carbon cycle",
+      "Phosphorus cycle"
+    ],
+
+    "Biodiversity and Conservation": [
+      "Levels of biodiversity",
+      "Patterns of biodiversity",
+      "Latitudinal gradients",
+      "Evil quartet",
+      "Loss of biodiversity",
+      "In-situ conservation",
+      "Ex-situ conservation",
+      "Air pollution",
+      "Water pollution",
+      "BOD & COD",
+      "Eutrophication",
+      "Biomagnification",
+      "Solid waste management",
+      "Global warming",
+      "Ozone depletion"
+    ]
+  }
+}

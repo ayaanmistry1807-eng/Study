@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Class 12 Study Planner</title>
+
+  <!-- Linking CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <h1>Class 12 Study Planner</h1>
+    <p class="subtitle">Smart Progress • Clean UI • Personalised Plan</p>
+  </header>
+
+  <main class="container">
+
+    <!-- SUBJECT COMBINATION -->
+    <section class="card">
+      <h2>Choose Subject Combination</h2>
+      <div class="combo-row">
+        <label><input type="radio" name="combo" value="PCMB" checked> PCMB</label>
+        <label><input type="radio" name="combo" value="PCM"> PCM</label>
+        <label><input type="radio" name="combo" value="PCB"> PCB</label>
+      </div>
+      <button id="applyCombo" class="btn accent">Apply</button>
+    </section>
+
+    <!-- DASHBOARD -->
+    <section class="card">
+      <h2>Dashboard</h2>
+      <div class="dash-grid">
+
+        <div class="dash-item">
+          <h3>Physics</h3>
+          <div class="ring"><span id="phyPercent">0%</span></div>
+        </div>
+
+        <div class="dash-item">
+          <h3>Chemistry</h3>
+          <div class="ring"><span id="chemPercent">0%</span></div>
+        </div>
+
+        <div class="dash-item math-item">
+          <h3>Maths</h3>
+          <div class="ring"><span id="mathPercent">0%</span></div>
+        </div>
+
+        <div class="dash-item bio-item">
+          <h3>Biology</h3>
+          <div class="ring"><span id="bioPercent">0%</span></div>
+        </div>
+
+        <div class="dash-item overall">
+          <h3>Overall</h3>
+          <div class="ring big"><span id="overallPercent">0%</span></div>
+        </div>
+
+      </div>
+    </section>
+    <!-- SUBJECTS & CHAPTERS -->
+    <section class="card">
+      <h2>Subjects & Chapters</h2>
+      <div id="subjectsContainer"></div>
+    </section>
+
+    <!-- PERSONALISED PROGRAM -->
+    <section class="card">
+      <h2>Personalised Study Program</h2>
+
+      <label class="row">
+        <span>Want personalised plan?</span>
+        <select id="wantPlan">
+          <option value="no">No</option>
+          <option value="yes">Yes</option>
+        </select>
+      </label>
+
+      <div id="planPrefs" class="hidden">
+
+        <label class="row">
+          <span>Your Name</span>
+          <input id="studentName" placeholder="Enter your name" />
+        </label>
+
+        <label class="row">
+          <span>Your Email</span>
+          <input id="studentEmail" placeholder="Enter email" />
+        </label>
+
+        <label class="row">
+          <span>Hours/day</span>
+          <input type="number" id="hoursPerDay" value="3" />
+        </label>
+
+        <label class="row">
+          <span>Exam Date</span>
+          <input type="date" id="examDate" />
+        </label>
+
+        <button id="sendBtn" class="btn accent">Send to WhatsApp</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Bottom Sheet (Slide Up) -->
+  <div id="sheetOverlay" class="overlay hidden"></div>
+
+  <div id="bottomSheet" class="bottom-sheet hidden">
+    <div class="drag-handle"></div>
+    <h3 id="sheetTitle"></h3>
+    <div id="sheetContent"></div>
+  </div>
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

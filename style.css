@@ -1,0 +1,285 @@
+/* =========================================
+   CLASS 12 STUDY PLANNER – NEUTRAL THEME
+   CLEAN UI • RESPONSIVE • MODERN 
+   ========================================= */
+
+:root {
+  --bg: #e9edf5;        /* neutral light-grey background */
+  --card: #ffffff;      /* white cards */
+  --text: #1c1f24;      /* dark grey text */
+  --subtext: #6b7280;   /* grey subtitles */
+  --accent: #3b82f6;    /* blue */
+  --accent2: #0ea5e9;   /* cyan */
+  --radius: 14px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.topbar {
+  text-align: center;
+  padding: 20px;
+  background: #f3f4f6;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.subtitle {
+  margin: 5px 0 0;
+  color: var(--subtext);
+  font-size: 0.9rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: var(--radius);
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+}
+/* =========================================
+   BUTTONS
+   ========================================= */
+
+.btn {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.btn.accent {
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  color: white;
+}
+
+/* =========================================
+   COMBO SELECTOR
+   ========================================= */
+
+.combo-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.combo-row label {
+  background: #eef0f5;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #d8dce3;
+}
+
+/* =========================================
+   DASHBOARD RINGS
+   ========================================= */
+
+.dash-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ring {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.ring.big {
+  width: 110px;
+  height: 110px;
+  font-size: 1.3rem;
+}
+/* =========================================
+   SUBJECTS ACCORDION (CLEAN LOOK)
+   ========================================= */
+
+#subjectsContainer .subject {
+  margin-bottom: 20px;
+}
+
+/* Subject Header */
+.subject h3 {
+  background: #eef0f5;
+  padding: 12px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d7dce3;
+}
+
+.subject h3:hover {
+  background: #e6e9f0;
+}
+
+/* Chapter Row */
+.chapter {
+  padding: 10px 14px;
+  background: #f7f8fa;
+  border-radius: 8px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 1px solid #dfe3ea;
+  transition: 0.2s;
+}
+
+.chapter:hover {
+  background: #eef0f5;
+  transform: translateX(4px);
+}
+
+/* =========================================
+   SETTINGS ROW
+   ========================================= */
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.row input,
+.row select {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #cdd3dc;
+  width: 180px;
+  background: white;
+}
+
+/* =========================================
+   BOTTOM SHEET (Slide-up + drag handle)
+   ========================================= */
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(3px);
+  z-index: 20;
+}
+
+.bottom-sheet {
+  position: fixed;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  background: #ffffff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  z-index: 30;
+  transition: 0.35s ease;
+  max-height: 75%;
+  overflow-y: auto;
+  padding: 18px;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+}
+
+.drag-handle {
+  width: 50px;
+  height: 5px;
+  background: #c8cbd3;
+  border-radius: 5px;
+  margin: 0 auto 12px;
+}
+
+.hidden {
+  display: none;
+}
+/* =========================================
+   SUBTOPICS INSIDE BOTTOM SHEET
+   ========================================= */
+
+#sheetTitle {
+  font-size: 1.25rem;
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+#sheetContent div {
+  padding: 10px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+#sheetContent label {
+  flex-grow: 1;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+#sheetContent input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+/* =========================================
+   RESPONSIVE DESIGN
+   ========================================= */
+
+@media (max-width: 600px) {
+  .card {
+    padding: 16px;
+  }
+  .ring {
+    width: 70px;
+    height: 70px;
+    font-size: 1rem;
+  }
+  .ring.big {
+    width: 95px;
+    height: 95px;
+    font-size: 1.15rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .chapter {
+    font-size: 0.92rem;
+  }
+  #sheetContent div {
+    font-size: 0.9rem;
+  }
+}

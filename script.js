@@ -259,7 +259,7 @@ document.getElementById("sendBtn").onclick = () => {
   const overall = document.getElementById("overallPercent").textContent;
 
   // 🔥 YOUR WHATSAPP NUMBER HERE (with country code)
-  const phone = "91XXXXXXXXXX"; // ← replace with your number
+  const phone = "918451055384"; // ← replace with your number
 
   const msg = `
 *Personalised Study Plan Request*
@@ -292,4 +292,5 @@ function init() {
 }
 
 init();
+
 
